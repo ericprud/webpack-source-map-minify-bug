@@ -1,0 +1,16 @@
+{
+  "name": "webpack-source-map-minify-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "reproduce webpack/minify source-map bug",
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build:browser": "webpack --progress --colors",
+    "test": "node -e \"require('./index.js')\" && exit 0"
+  },
+  "author": "Eric Prud'hommeaux <eric.npm@w3.org> (http://www.w3.org/People/Eric/)",
+  "license": "MIT"
+}
