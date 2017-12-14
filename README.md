@@ -11,3 +11,5 @@ devtool: 'source-map',
 plugins: [ new MinifyPlugin({ deadcode: false }) ],
 ```
 in [webpack.config.js](webpack.config.js#L10-L11) results in a successful build.
+
+TODO: delete repo when [webpack/webpack#6131](https://github.com/webpack/webpack/issues/6131) is resolved.
